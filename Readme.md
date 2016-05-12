@@ -1,4 +1,5 @@
 forked to add experimental support to iframes an automatic waiting for actions like clicking, checking, etc.
+Also, code is compatible  be ran with meteorjs 1.3.x
 Also, fixes memory leaks for uncalled and unremoved response, error and log listeners
 
 Nightmare
