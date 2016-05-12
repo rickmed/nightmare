@@ -1,4 +1,5 @@
-[![Build Status](https://circleci.com/gh/segmentio/nightmare.png?circle-token=dbb94336673268633371a89865e008b70ffedf6d)](https://circleci.com/gh/segmentio/nightmare)
+forked to add experimental support to iframes an automatic waiting for actions like cliking, checking, etc 
+
 Nightmare
 =========
 
