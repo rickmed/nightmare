@@ -1,4 +1,4 @@
-forked to add experimental support to iframes and automatic waiting for actions like cliking, change iframes, type (for now).
+forked to add experimental support to iframes and automatic waiting for actions like click, change iframes, type (for now).
 Also, code is compatible with nodejs 0.10.43 (to be ran with meteorjs)
 
 Nightmare
