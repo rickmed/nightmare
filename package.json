@@ -1,5 +1,5 @@
 {
-  "name": "nightmare",
+  "name": "nightmare-meteor",
   "version": "2.4.0",
   "license": "MIT",
   "main": "lib/nightmare.js",
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/segmentio/nightmare.git"
+    "url": "https://github.com/rickmed/nightmare"
   },
-  "author": "Segment",
+  "author": "rickmed",
   "keywords": [
     "nightmare",
     "electron"
   ],
-  "description": "A high-level browser automation library.",
+  "description": "forked Nightmare compatible with meteor 1.3 and some goodies",
   "dependencies": {
     "debug": "^2.2.0",
     "deep-defaults": "^1.0.3",
     "defaults": "^1.0.2",
-    "electron-prebuilt": "^0.37.7",
+    "electron-prebuilt": "^1.0.0",
     "enqueue": "^1.0.2",
     "function-source": "^0.1.0",
     "jsesc": "^0.5.0",
