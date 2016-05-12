@@ -1,4 +1,5 @@
-forked to add experimental support to iframes an automatic waiting for actions like cliking, checking, etc 
+forked to add experimental support to iframes an automatic waiting for actions like clicking, checking, etc.
+Also, fixes memory leaks for uncalled and unremoved response, error and log listeners
 
 Nightmare
 =========
@@ -288,7 +289,7 @@ Add a header override for all HTTP requests.  If `header` is undefined, the head
  Exit from all iframe elements entered with `.enterIframe(selector)` and return to the root document.
 
  Any action called after this will act as normal.
- 
+
 ### Extract from the Page
 
 #### .exists(selector)
