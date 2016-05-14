@@ -1,8 +1,8 @@
 {
   "name": "nightmare-meteor",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "license": "MIT",
-  "main": "lib/nightmare.js",
+  "main": "index.js",
   "scripts": {
     "test": "make test"
   },

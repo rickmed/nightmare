@@ -1,7 +1,9 @@
 - Forked to add experimental support to iframes an automatic waiting for actions like clicking, checking, etc.
-- Code is compatible be ran with meteorjs 1.3.x
-- Fixes memory leaks for uncalled and unremoved response, error and log listeners
-- Uses electron ^1.0.0
+- Code is compatible be ran with meteorjs 1.3.x.
+- Fixes memory leaks for uncalled and unremoved response, error and log listeners.
+- Uses electron ^1.0.0.
+- Mutates/extends the Nightmare object, adds code to preload.js to support iframes and some changes in files to be compatible with meteor's nodejs version (see nightmare-update file for additional info).
+- Adds a couple of utility functions (see index.js).
 
 Nightmare
 =========
